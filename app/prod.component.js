@@ -9,17 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var Product = (function () {
+    function Product() {
     }
-    AppComponent = __decorate([
+    Product = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "<h1>iPhone Images</h1>\n  <a routerLink=\"/prod\">iPhone 4S</a>\n  <a routerLink=\"/prod2\">iPhone 4S</a>\n  <a routerLink=\"/prod3\">iPhone 6</a>\n  <router-outlet></router-outlet>"
+            selector: 'my-prod',
+            template: "<h1>iPhone 4s</h1>\n<img src=\"./img/1.jpg\">\n<router-outlet></router-outlet>"
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], Product);
+    return Product;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.Product = Product;
+//# sourceMappingURL=prod.component.js.map
