@@ -1,0 +1,1 @@
+This is an example of routing using angular2 RC-6
